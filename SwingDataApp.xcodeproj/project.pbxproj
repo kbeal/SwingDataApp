@@ -15,6 +15,9 @@
 		1FCDF62922281E8A009FA027 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FCDF62722281E8A009FA027 /* LaunchScreen.storyboard */; };
 		1FCDF63422281E8B009FA027 /* SwingDataAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCDF63322281E8B009FA027 /* SwingDataAppTests.swift */; };
 		1FCDF63F22281E8B009FA027 /* SwingDataAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCDF63E22281E8B009FA027 /* SwingDataAppUITests.swift */; };
+		1FCDF64D22281EA4009FA027 /* SwingDataPointTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCDF64C22281EA4009FA027 /* SwingDataPointTree.swift */; };
+		1FCDF64F22281ED2009FA027 /* SwingDataSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCDF64E22281ED2009FA027 /* SwingDataSearch.swift */; };
+		1FCDF65122287F01009FA027 /* SwingDataSearchLinear.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCDF65022287F01009FA027 /* SwingDataSearchLinear.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		1FCDF63A22281E8B009FA027 /* SwingDataAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwingDataAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FCDF63E22281E8B009FA027 /* SwingDataAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwingDataAppUITests.swift; sourceTree = "<group>"; };
 		1FCDF64022281E8B009FA027 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FCDF64C22281EA4009FA027 /* SwingDataPointTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwingDataPointTree.swift; sourceTree = "<group>"; };
+		1FCDF64E22281ED2009FA027 /* SwingDataSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwingDataSearch.swift; sourceTree = "<group>"; };
+		1FCDF65022287F01009FA027 /* SwingDataSearchLinear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwingDataSearchLinear.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,9 @@
 				1FCDF62722281E8A009FA027 /* LaunchScreen.storyboard */,
 				1FCDF62A22281E8A009FA027 /* Info.plist */,
 				1FCDF62222281E89009FA027 /* SwingDataApp.xcdatamodeld */,
+				1FCDF64C22281EA4009FA027 /* SwingDataPointTree.swift */,
+				1FCDF64E22281ED2009FA027 /* SwingDataSearch.swift */,
+				1FCDF65022287F01009FA027 /* SwingDataSearchLinear.swift */,
 			);
 			path = SwingDataApp;
 			sourceTree = "<group>";
@@ -261,7 +270,10 @@
 			files = (
 				1FCDF61E22281E89009FA027 /* ViewController.swift in Sources */,
 				1FCDF61C22281E89009FA027 /* AppDelegate.swift in Sources */,
+				1FCDF64F22281ED2009FA027 /* SwingDataSearch.swift in Sources */,
+				1FCDF65122287F01009FA027 /* SwingDataSearchLinear.swift in Sources */,
 				1FCDF62422281E89009FA027 /* SwingDataApp.xcdatamodeld in Sources */,
+				1FCDF64D22281EA4009FA027 /* SwingDataPointTree.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
